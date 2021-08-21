@@ -36,6 +36,9 @@ function promoInput() {
         getPromoInput.value = '';
         promoBtn.setAttribute('disabled', true)
     }
+    else {
+        alert('You Enter a Wrong PROMO Coad');
+    }
 
 }
 // add button Listener
